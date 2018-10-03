@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+	char fname[10],lname[10];
+	int fname_len,lname_len;
+	printf("Enter your first name: ");
+	scanf("%s",fname);
+	printf("Enter your last name: ");
+	scanf("%s",lname);
+	fname_len=strlen(fname);
+	lname_len=strlen(lname);
+	printf("%s %s\n",fname,lname);
+	printf("%*d %*d\n",fname_len,fname_len,lname_len,lname_len);
+	printf("%-*d %-*d\n",fname_len,fname_len,lname_len,lname_len);
+
+	return 0;
+}
