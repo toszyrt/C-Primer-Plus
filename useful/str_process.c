@@ -1,9 +1,8 @@
 char get_first(void)
 {
 	char ch;
-	while(getchar() == ' ')
+	while((ch = getchar()) == ' ')
 		continue;
-	ch = getchar();
 	while(getchar() != '\n')
 		continue;
 	return ch;
