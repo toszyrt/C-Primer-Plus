@@ -1,2 +1,2 @@
-# Practice
-C Primer Plus Practice
+# C Primer Plus
+Practice
